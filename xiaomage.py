@@ -1,0 +1,3 @@
+hi = 'candy'
+
+print(hi)
