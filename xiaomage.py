@@ -61,3 +61,21 @@ print(word[-1])
 print(word[::-1])
 print(word[1:2])
 print(word[-2:])
+print(word[:1])
+print(word[1:])
+
+'''
+def decap(string):
+    return str[:1].lower() + str[1:]
+
+decap('KooLar')
+decap('KKooLLoo')
+
+'''
+
+print('\n')
+
+names_python_pc = ['jackie', 'James', 'boys']
+print(f'all python members are: {names_python_pc}')
+
+print('name_python_pc type is: ', type(names_python_pc))
